@@ -44,31 +44,31 @@ Sécurité et Performance
   - JavaScript pour l'interactivité côté client.
 
 
-Installation
+## Installation
 
-Pour cloner et exécuter localement le site web de MayAssur, suivez les étapes suivantes :
+    Pour cloner et exécuter localement le site web de MayAssur, suivez les étapes suivantes :
+    
+    git clone https://github.com/MayAssur/MayAssur-website.git
+    
+    cd MayAssur-website
+    
+    // Installer les dépendances, si nécessaire
+    
+    // Ouvrir `index.html` dans votre navigateur préféré
 
-git clone https://github.com/MayAssur/MayAssur-website.git
+## Contribution
 
-cd MayAssur-website
-
-// Installer les dépendances, si nécessaire
-
-// Ouvrir `index.html` dans votre navigateur préféré
-
-Contribution
-
-Les contributions à ce projet sont les bienvenues. Voici comment vous pouvez contribuer :
-
-Fork le dépôt ( [https://github.com/MayAssur/MayAssur-website/fork ](https://github.com/sainth-nathan-ahoussi/MayAssur/fork))
-
-Créez votre branche de fonctionnalité (git checkout -b feature/fooBar)
-
-Committez vos changements (git commit -am 'Add some fooBar')
-
-Push à la branche (git push origin feature/fooBar)
-
-Créez une nouvelle Pull Request
+    Les contributions à ce projet sont les bienvenues. Voici comment vous pouvez contribuer :
+    
+    Fork le dépôt ( [https://github.com/MayAssur/MayAssur-website/fork ](https://github.com/sainth-nathan-ahoussi/MayAssur/fork))
+    
+    Créez votre branche de fonctionnalité (git checkout -b feature/fooBar)
+    
+    Committez vos changements (git commit -am 'Add some fooBar')
+    
+    Push à la branche (git push origin feature/fooBar)
+    
+    Créez une nouvelle Pull Request
 
 
 ## Support
