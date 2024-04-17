@@ -9,11 +9,17 @@ MayAssur est une compagnie d'assurance basée à Mayotte, une île riche en hist
 Le dépôt GitHub pour MayAssur contient tous les fichiers nécessaires à la maintenance et à l'expansion de notre site web, organisés comme suit :
 
 /page_web
+
 |
+
 |-- /CSS                  # Contient tous les fichiers de style CSS.
+
 |-- /IMG                  # Dossier pour toutes les images utilisées sur le site.
+
 |-- /Javascript           # Dossier pour les scripts JavaScript.
+
 |-- /Pages                # Dossier pour les fichiers HTML des différentes pages.
+
 `-- index.html            # Fichier HTML de la page d'accueil.
 
 
@@ -43,8 +49,11 @@ Installation
 Pour cloner et exécuter localement le site web de MayAssur, suivez les étapes suivantes :
 
 git clone https://github.com/MayAssur/MayAssur-website.git
+
 cd MayAssur-website
+
 // Installer les dépendances, si nécessaire
+
 // Ouvrir `index.html` dans votre navigateur préféré
 
 Contribution
@@ -52,9 +61,13 @@ Contribution
 Les contributions à ce projet sont les bienvenues. Voici comment vous pouvez contribuer :
 
 Fork le dépôt ( [https://github.com/MayAssur/MayAssur-website/fork ](https://github.com/sainth-nathan-ahoussi/MayAssur/fork))
+
 Créez votre branche de fonctionnalité (git checkout -b feature/fooBar)
+
 Committez vos changements (git commit -am 'Add some fooBar')
+
 Push à la branche (git push origin feature/fooBar)
+
 Créez une nouvelle Pull Request
 
 
