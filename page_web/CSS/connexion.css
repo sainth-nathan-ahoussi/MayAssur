@@ -1,0 +1,93 @@
+body{
+    position: relative;
+    margin: 0; 
+    padding: 0;
+}
+
+
+main::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('https://www.vanilla-islands.org/wp-content/uploads/2019/08/ile-vanille-home-mayotte-palmier-panorama.jpg') center/cover no-repeat;
+    opacity: 0.5; 
+    z-index: -1; 
+}
+
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+}
+
+.auth-card {
+    background: #072A56;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px; /* Adjust width as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+h1,label{
+    color: #fff;
+}
+.auth-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.auth-label {
+    margin-bottom: 5px;
+}
+
+.auth-input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.auth-button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.auth-button:hover {
+    background-color: #0056b3;
+}
+
+.auth-divider {
+    padding: 20px;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Media query for mobile responsiveness */
+@media (max-width: 768px) {
+    .auth-container {
+        flex-direction: column;
+    }
+    .auth-divider {
+        display: none;
+    }
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MayAssur</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/connexion.css">
+
+</head>
+<body>
+    <!-- //////////////////////Barre de navigation////////////////////// -->
+    <header class="site-header">
+        <a href="../index.html" class="logo-container">
+            <img src="../IMG/Logo/logo_mayAssur.png" alt="MayAssur Logo" class="logo">
+        </a>
+        <nav class="navigation">
+            <a href="/Pages/Entreprise.html" class="nav-link">Entreprises</a>
+            <a href="/Pages/Particuliers.html" class="nav-link">Particuliers</a>
+            <a href="/Pages/Etudiants.html" class="nav-link">Étudiants</a>
+        </nav>
+        <div class="search-profile">
+            <input type="search" placeholder="Search..." class="search-box">
+            <button class="search-btn">🔍</button>
+            <button class="profile-btn"><a href="/Pages/Connexion.html" class="nav-link">👤</a></button>
+        </div>
+    </header>
+
+
+    <main >    
+        <div class="auth-container">
+            <div class="auth-card" id="registration">
+                <h1 class="auth-title">Inscription</h1>
+                <form class="auth-form">
+                    <label for="register-username" class="auth-label">LOGIN</label>
+                    <input type="text" id="register-username" class="auth-input">
+    
+                    <label for="register-password" class="auth-label">MOT DE PASSE</label>
+                    <input type="password" id="register-password" class="auth-input">
+    
+                    <label for="confirm-password" class="auth-label">CONFIRMEZ MOT DE PASSE</label>
+                    <input type="password" id="confirm-password" class="auth-input">
+    
+                    <button type="submit" class="auth-button">INSCRIPTION</button>
+                </form>
+            </div>
+        </div>
+    </main>
+ 
+
+    <!-- D'autres sections iront ici -->
+    <footer class="footer">
+        <div class="footer-grid-container">
+            <div class="footer-contact">
+                <h3 class="footer-title">Contactez-nous</h3>
+                <p class="footer-text">Par téléphone</p><!-- Tel: 01 23 45 67 89 -->
+                <p class="footer-text">Par mail</p><!-- Email: contact@mayassur.com -->
+                <a href="#" class="footer-social-link">Espace Client</a>
+                <a href="#" class="footer-social-link">FAQ</a>
+            </div>
+
+            <div class="footer-about">
+                <h3 class="footer-title">Qui sommes-nous?</h3>
+                <a href="#" class="footer-link">À propos</a>
+                <a href="#" class="footer-link">Conditions d'attente</a>
+                <a href="/Pages/PolitiqueConfidentialité.html" class="footer-link">Politique de confidentialité</a>
+            </div>
+            <div class="footer-newsletter">
+                <h3 class="footer-title">Newsletter</h3>
+                <input type="email" placeholder="Votre email" class="newsletter-email-input">
+                <button class="newsletter-subscribe-btn">S'inscrire</button>
+            </div>
+            <div class="footer-social-media">
+                <h3 class="footer-title">Suivez-nous</h3>
+                <a href="#" class="footer-social-link">Facebook</a>
+                <a href="#" class="footer-social-link">Instagram</a>
+                <a href="#" class="footer-social-link">Twitter</a>
+            </div>
+        </div>
+        <div class="footer-legal">
+            <p>&copy; Tous droits réservés - MayAssur</p>
+        </div>
+    </footer>
+
+</body>
+</html>

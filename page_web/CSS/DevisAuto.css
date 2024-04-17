@@ -1,0 +1,82 @@
+body{
+    position: relative;
+    margin: 0; 
+    padding: 0;
+}
+
+
+main::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('https://lemag.nikonclub.fr/wp-content/uploads/2018/11/09-mont-choungui_mayotte.jpg') center/cover no-repeat;
+    opacity: 0.5; 
+    z-index: -1; 
+}
+.auth-container{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.quote-form-title,.form-label,.form-input,.form-options{
+    color: #002244;
+}
+
+.quote-form-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: auto;
+    margin: 30px auto;
+}
+
+.quote-form-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.quote-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-label {
+    margin-bottom: 5px;
+}
+
+.form-input,
+.form-options {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-options {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-options label {
+    margin-right: 10px;
+}
+
+.form-button {
+    padding: 10px;
+    background-color: #0b5ed7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    background-color: #002244;
+}
+
+/* ... any additional styles ... */
